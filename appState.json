@@ -1,0 +1,127 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "1731d9d7-962e-4719-8ed1-7884f52a6f7c": {
+        "id": "1731d9d7-962e-4719-8ed1-7884f52a6f7c",
+        "parent": null,
+        "name": "dep1indu.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "dep1indu.js",
+        "cursor": {
+          "lineNumber": 15,
+          "column": 8
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "dep1indu"
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast1sachithraAPInameteststgingindget",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "openFiles": [
+      "1731d9d7-962e-4719-8ed1-7884f52a6f7c"
+    ],
+    "currentFileId": "1731d9d7-962e-4719-8ed1-7884f52a6f7c",
+    "resources": {
+      "apigusEast1sachithraAPInameteststgingindget": {
+        "name": "apigusEast1sachithraAPInameteststgingindget",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 1,
+          "apiName": "sachithraAPIname",
+          "apiId": "052p9kjn18",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "zrjp6rdv3b",
+          "existingResources": {
+            "/1111": "0rjsnt",
+            "/test/stging": "3y9a7c",
+            "/test": "9vz3u0",
+            "/test/stging/ind": "aw3y41",
+            "/test/indusns": "iep52p",
+            "/qa/indu": "vpyhm8",
+            "/qa": "w0smbw",
+            "/": "zrjp6rdv3b"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/test/stging/ind",
+          "resourceName": "test/stging/ind",
+          "resourceId": "aw3y41",
+          "restMethod": "GET",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "test1",
+          "stageDeploymentId": "uopk5m",
+          "mode": 1
+        }
+      },
+      "s3as2TestLahiru": {
+        "name": "s3as2TestLahiru",
+        "type": "S3",
+        "config": {
+          "mode": 1,
+          "bucket": {
+            "region": "us-east-1",
+            "name": "as2-test-lahiru"
+          }
+        }
+      }
+    },
+    "customTemplate": {
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "nodejs",
+          "version": "2.644.0",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "dep1indu",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1586404471139
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "dep1indu",
+      "url": "https://github.com/Indunil1992/dep1indu"
+    }
+  }
+}
