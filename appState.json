@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "dep1indu.js",
         "cursor": {
-          "lineNumber": 15,
-          "column": 8
+          "lineNumber": 9,
+          "column": 24
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -103,6 +103,12 @@
           "version": "2.644.0",
           "dev": true,
           "notRemovable": false
+        },
+        "test": {
+          "name": "test",
+          "version": "0.6.0",
+          "dev": false,
+          "language": "nodejs"
         }
       }
     }
@@ -115,7 +121,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1586404471139
+    "lastSave": 1586405464651
   },
   "VCS_STATE": {
     "provider": "GitHub",
